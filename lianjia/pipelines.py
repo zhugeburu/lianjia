@@ -6,7 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import numpy as np
-
+'''
 class lianjiaPipeline(object):
     def __init__(self):
         self.file = open('lianjia.csv', 'wb')
@@ -44,8 +44,8 @@ class lianjiaPipeline(object):
 
     def spider_closed(self, spider):
         self.file.close()
+'''
 
-"""
 import json
 
 class lianjiaPipeline(object):
@@ -59,5 +59,6 @@ class lianjiaPipeline(object):
 
     def spider_closed(self, spider):
         self.file.close()
-"""
+
+
 

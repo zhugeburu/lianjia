@@ -14,7 +14,7 @@ SPIDER_MODULES = ['lianjia.spiders']
 NEWSPIDER_MODULE = 'lianjia.spiders'
 
 ITEM_PIPELINES = {
-    'lianjia.pipelines.lianjiaPipeline' : 1,
+    'lianjia.pipelines.lianjiaPipeline' : 300
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
